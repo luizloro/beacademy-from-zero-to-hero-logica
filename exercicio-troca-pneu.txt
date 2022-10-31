@@ -1,0 +1,20 @@
+Exercicio algoritmo troca de pneu
+
+1º Parar o carro 
+2º Desembarcar do carro
+3º Abrir o porta malas
+4º Pegar o sinalizador triângulo
+5º Sinalizar a via
+6º Verificar se tenho estepe
+7º Se tiver estepe retirar do porta malas
+8º Pegar a chave de rodas
+9° Pegar o macaco
+10º Levantar o carro com o macaco
+11º Remover os parafusos da roda
+12º Remover a roda com o pneu furado
+13º Inserira a roda do estepe 
+14° Parafusar a roda
+15º Guardar o roda com o pneu furado 
+16º Guardar a sinalização triângo e o macaco
+17º Fechar o porta malas
+18º Embarcar no carro

@@ -1,0 +1,17 @@
+Algoritmo "Calculadora IMC"
+//Exercicio calculadora IMC
+var
+   peso, altura, imc: REAL
+   nome: CARACTERE
+inicio
+   escreva("Digite seu nome = ")
+   leia(nome)
+   escreva("Digite sua altura = ")
+   leia(altura)
+   escreva("Digite seu peso = ")
+   leia(peso)
+   imc<-peso/(altura*altura)
+   escreva(" Nome: ",nome, "/ Altura ", altura, "/ Peso",peso)
+   escreva("/ imc: ",imc)
+
+fimalgoritmo

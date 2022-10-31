@@ -1,0 +1,9 @@
+Exercicio Exemplo de Programa que deseja somar 2 números
+
+1. PROGRAMA SomarDoisNumeros
+2. VAR numero1, numero2: REAL
+3. INICIO
+    4.LER(numero1)
+    5.LER(numero2)
+    6.ESCREVER('Soma dos números =', (numero1+numero2))
+7.FIM

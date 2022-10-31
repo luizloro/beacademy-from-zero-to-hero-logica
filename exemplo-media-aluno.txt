@@ -1,0 +1,10 @@
+Algoritimo "NotasAluno"
+//Exemplo de Media de aluno 
+VAR nota1, nota2: REAL;
+inicio:
+    escreva("Digite a 1º nota:")
+    leia(nota1)	
+    escreva("Digite a 2º nota:")
+    leia(nota2)
+    escreva("Média obtida:" , ((nota1+nota2)/2))
+fimalgoritmo

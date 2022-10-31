@@ -1,0 +1,16 @@
+Algoritmo "ExercicioValidacaoNomeIdade"
+// Exercicio validação de idade
+var
+   nome: caractere
+   idade: inteiro;
+inicio
+    escreval("Digite seu NOME: ")
+    leia(nome)
+    escreval("Digite sua IDADE: ")
+    leia(idade)
+    escreval(idade >18)
+    escreval(idade =25)
+    escreval((idade =25),E,(nome = 'Marcos'))
+    escreval(idade <>25)||(nome = 'Marcos'))
+    escreval(idade % 2 = 0)
+fimalgoritmo

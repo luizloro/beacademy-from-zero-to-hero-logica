@@ -1,0 +1,8 @@
+Algoritimo "ExercicioSoliciteEndereco"
+// Lógica de Programação Exercicio Solicitação de Endereço 
+var endereco: caractere
+inicio:
+    escreva("Digite seu endereço")
+    leia(endereco)	
+    escreva("Seu endereço é: " + endereco)
+fimalgoritmo

@@ -1,0 +1,14 @@
+Algoritmo "Tipos de Dados"
+// Exemplo Tipo de Dados
+var 
+  Total, Maior, Menor: INTEIRO;
+  Nota, Media, Altura: REAL 
+  Resposta: LOGICO
+inicio
+  Maior<-50;
+  Menor<-40;
+  Total<-(Maior - Menor);
+  Resposta<-Verdadeiro;
+  escreva(Maior, "-", Menor, "=", Total)
+  escreva("Resposta = ", Resposta)
+fimalgoritmo

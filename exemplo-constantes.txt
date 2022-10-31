@@ -1,0 +1,6 @@
+Algoritmo "Constantes"
+//Exemplo constantes
+
+inicio
+    escreva("O valor de PI é: ", PI)
+fimalgoritmo

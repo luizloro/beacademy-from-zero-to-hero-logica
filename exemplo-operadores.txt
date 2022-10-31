@@ -1,0 +1,19 @@
+Algoritmo "ExemploOperadores"
+//Exemplo operadores
+var 
+   nome: caractere;
+   salario: real;
+inicio
+   escreva("Digite seu nome: ") 
+   leia(nome)
+   escreva(nome +"Monteiro")
+   escreva("Digite o salário:")
+   leia(salario)
+   escreva("Salário: ", salario)
+   escreva("Salário MENOR que o mínimo: ", (salario<1200))
+   escreva("Salário MAIOR que o mínimo: ", (salario>1200))
+   escreva("Salário DIFERENTE do mínimo: ", (salario<>1200))
+   escreva("Salário IGUAL ao mínimo: ", (salario==1200))
+   escreva("Resto da divisão de 5 por 2 é: ", (5%2))
+   escreva("Salário MAIOR que o mínimo e MENOR que 5000: ", ((salario>1200)E(salario<5000)))
+fimalgoritmo  

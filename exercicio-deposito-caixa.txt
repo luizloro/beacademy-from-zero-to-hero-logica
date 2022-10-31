@@ -1,0 +1,14 @@
+Algoritmo "ExercicioDepositoCaixa"
+//Exercicio Depósito em Caixa
+var
+   deposito, valorInicial, valorAtualizado: real;
+inicio
+    escreval("Valor do DEPÓSITO: ")
+    leia(deposito)
+    valorInicial<-300;
+    valorAtualizado<-(deposito+valorInicial);
+    escreval("Saldo INICIAL: ",valorInicial)
+    escreval("Valor do DEPÓSITO: ",deposito)
+    escreval("Saldo ATUALIZADO: ",valorAtualizado)
+
+fimalgoritmo

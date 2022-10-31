@@ -1,0 +1,20 @@
+Algoritmo "ExemploSeSeNaoSe"
+//Exemplo implementação com SE SE NAO SE
+var
+   nome: caractere;
+   salario: real;
+inicio
+   escreva("Digite o nome: ")
+   leia(nome)
+   escreva("Digite o salário: ")
+   leia(salario)
+   se (salario>1200) então
+      escreva(nome, " seu salário é MAIOR que o salário mínimo!!!")
+   senao
+      se(salario=1200)entao
+         escreva(nome, " seu salário é IGUAL ao salário mínimo!!!")
+      senao
+         escreva(nome, " seu salário é MENOR que o salário mínimo!!!")
+      fimse
+   fimse fimse
+fimalgoritmo

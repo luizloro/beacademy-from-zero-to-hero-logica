@@ -1,0 +1,10 @@
+algoritmo "ImprimeFor1a10"
+//Exemplo Imprimindo FOR de 1 a 10
+var
+  i: inteiro
+inicio
+   escreval("Imprimindo de 1 a 10:")
+   para i de 1 ate 10 faca
+    escreval(i)
+   fimpara
+fimalgoritmo

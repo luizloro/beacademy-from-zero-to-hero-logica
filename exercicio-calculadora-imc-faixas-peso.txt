@@ -1,0 +1,38 @@
+Algoritmo "Calculadora IMC"
+//Exercicio calculadora IMC COM FAIXAS DE PESO
+var
+   peso, altura, imc: REAL
+   nome: CARACTERE
+inicio
+   escreva("Digite seu nome = ")
+   leia(nome)
+   escreva("Digite sua altura = ")
+   leia(altura)
+   escreva("Digite seu peso = ")
+   leia(peso)
+   imc<-peso/(altura*altura)
+   se(imc< 19)entao
+      escreval(" Nome: ",nome, " Altura ", altura, " Peso",peso)
+      escreval("ABAIXO DO PESO imc: ",imc)
+   senao
+      se(imc<25 )entao
+         escreval(" Nome: ",nome, " Altura ", altura, " Peso",peso)
+         escreval("PESO NORMAL imc: ",imc)
+      senão
+         se(imc<30 )entao
+            escreval(" Nome: ",nome, " Altura ", altura, " Peso",peso)
+            escreval("SOBREPESO imc: ",imc)
+         senão
+            se(imc<40 )entao
+               escreval(" Nome: ",nome, " Altura ", altura, " Peso",peso)
+               escreval("OBESIDADE TIPO 1 imc: ",imc)
+            senão
+               escreval(" Nome: ",nome, " Altura ", altura, " Peso",peso)
+               escreval("OBESIDADE MORBIDA imc: ",imc)
+            fimse
+         fimse
+      fimse
+   fimse
+
+
+fimalgoritmo

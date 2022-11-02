@@ -1,33 +1,32 @@
 algoritmo "CalculadoraQuatroOperacoes"
 //Exercicio Calculadora de Quatro Operações
-
 var
-   numero1, numero2: real;
-   operacao: caractere;
-   resultado: real;
+   numero1 : real
+   numero2 : real
+   operacao : caractere
+   resultado : real
 inicio
-   escreva("Digite o PRIMEIRO número: ")
-   leia(numero1)
-   escreva("Digite a OPERAÇÃO: ")
-   leia(operacao)
-   escreva("Digite o SEGUNDO número: ")
-   leia(numero2)
+
+   escreva ("Digite o PRIMEIRO número: ")
+   leia (numero1)
+   escreva ("Digite a OPERAÇÃO: ")
+   leia (operacao)
+   escreva ("Digite o SEGUNDO número: ")
+   leia (numero2)
+
    escolha operacao
-      caso"+"
-      resultado:= numero1 + numero2
-      caso"-"
-      resultado:= numero1 - numero2
-      caso"*"
-      resultado:= numero1 * numero2
-      caso"/"
-      resultado:= numero1 / numero2
+   caso "+"
+      resultado := numero1 + numero2
+   caso "-"
+      resultado := numero1 - numero2
+   caso "*"
+      resultado := numero1 * numero2
+   caso "/"
+      resultado := numero1 / numero2
    outrocaso
-      resultado:= -1
-   fimescolha
-   se (resultado = -1) entao
       escreva("Operação INVÁLIDA escolha +, -, * ou /")
-   senao
-      escreva("Resultado: ", resultado)
-   fimse
+   fimescolha
+
+   escreva ("Resultado: ", resultado)
 
 fimalgoritmo

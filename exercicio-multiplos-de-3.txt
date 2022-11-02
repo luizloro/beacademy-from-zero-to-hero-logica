@@ -1,0 +1,17 @@
+algoritmo "MultiplosDe3"
+//Exercicio Dados 2 valores encontre os Multiplos de 3
+var
+   numero1: inteiro
+   numero2: inteiro
+inicio
+   escreva("Digite o primeiro número: ")
+   leia(numero1)
+   escreva("Digite o segundo número: ")
+   leia(numero2)
+   escreval("Os números multiplos de 3 são:")
+   para numero1 de numero1 ate numero2 faca
+      se(numero1%3=0)entao
+         escreval(numero1)
+      fimse
+   fimpara
+fimalgoritmo

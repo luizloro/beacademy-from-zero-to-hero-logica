@@ -1,0 +1,47 @@
+Algoritmo "OperacaoRepete"
+//Exercicio Operação Com Retição do Usuário
+
+Var
+   operacao, repetir: CARACTERE
+   i,numero1, numero2,resultado: inteiro
+
+Inicio
+   i<-1
+
+   enquanto i < 2 faca
+
+      escreva("Digite o PRIMEIRO número: ")
+      leia(numero1)
+      escreva("Digite a OPERAÇÃO: ")
+      leia(operacao)
+      escreva("Digite o SEGUNDO número: ")
+      leia(numero2)
+      escolha operacao
+      caso "+"
+         resultado := numero1 + numero2
+      caso "-"
+         resultado := numero1 - numero2
+      caso "*"
+         resultado := numero1 * numero2
+      caso "/"
+         resultado := numero1 / numero2
+      outrocaso
+         escreva("Operação INVÁLIDA escolha +, -, * ou /")
+      fimescolha
+      escreval("Resultado: ", resultado)
+      i<- i+1
+      escreval("Deseja REPETIR a operação ?")
+      leia(repetir)
+      se(repetir = "sim")então
+         i<- i-1
+      senao
+         se(repetir = "não")entao
+            i<- i+2
+         fimse
+      fimse
+
+
+   fimenquanto
+
+
+Fimalgoritmo

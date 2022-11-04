@@ -1,0 +1,21 @@
+Algoritmo "ExercicioImprimaAteInterrompa"
+//Exercicio Imprima 1 até 10 com INTERROMPA
+
+Var
+   i: inteiro
+
+Inicio
+
+   escreval("Imprimindo de 1 a 10 Repita até: ")
+   i <-1
+   repita
+      escreval(i)
+      i<- i+1
+      se i= 5 entao
+         interrompa
+      fimse
+   ate i>10
+   escreval("Executando após um INTERROMPA I = ", i)
+
+
+Fimalgoritmo

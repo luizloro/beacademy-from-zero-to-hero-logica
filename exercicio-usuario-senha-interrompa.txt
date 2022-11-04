@@ -1,0 +1,41 @@
+Algoritmo "ExercicioUsuarioESenhaInterrompa"
+//Exercicio Usuário e Senha com INTERROMPA
+
+Var
+   pergunta,i: inteiro
+   nome, senha: caractere
+
+Inicio
+
+
+   i <-1
+   repita
+      escreva("Digite seu NOME: ")
+      leia(nome)
+      escreva("Digite sua SENHA: ")
+      leia(senha)
+
+      se ((nome = "Marcos") E (senha = "1234")) entao
+         i<- i+1
+         escreval("Seja bem vindo ", nome)
+
+      senao
+         escreval("Usuário ou senha INCORRETA")
+         i<- 1
+
+      fimse
+   ate i=2
+
+   escreval("Digite 1 para FINALIZAR o programa")
+   leia(pergunta)
+   se pergunta = 1 entao
+      i<- i+1
+      interrompa
+   fimse
+
+   escreval("O progrma será FINALIZADO por solicitação do USUÁRIO")
+
+
+
+
+Fimalgoritmo

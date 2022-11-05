@@ -1,0 +1,40 @@
+Algoritmo "ExercicioSaquesRepita"
+//Exercicio Repita Saques de 150
+
+Var
+   i, saque: inteiro
+   operacao: caractere
+
+Inicio
+
+   saque<- 0
+   i <-1000
+   repita
+      escreval("Limite dispónivel para saque $",i)
+      escreval("Valor dispónivel para saque $150")
+      escreval("Digite SIM para saque e NÃO para encerrar.")
+      leia(operacao)
+
+      se(operacao = "sim") entao
+         saque<-150
+      senao
+         se(operacao = "não") entao
+            interrompa
+         fimse
+      fimse
+
+      se(saque < i) entao
+         i<- i - saque
+      fimse
+
+
+      se(i < saque)então
+         escreval("Valor minimo para saque $",saque)
+         escreval("Valor dispónivel em conta $",i)
+         interrompa
+      fimse
+
+   ate i= 100
+
+
+Fimalgoritmo

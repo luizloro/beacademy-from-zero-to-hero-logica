@@ -1,0 +1,20 @@
+Algoritmo "ExercicioSomaCemPrimeiros"
+//Exercicio Soma dos 100 Primeiros Números
+
+Var
+   i, soma: inteiro
+
+Inicio
+
+   soma <-0
+   i <-0
+   repita
+
+      i<- i+1
+      soma<- i+soma
+
+   ate i=100
+   escreval("A soma dos 100 primeiros números inteiro eh:",soma)
+
+
+Fimalgoritmo

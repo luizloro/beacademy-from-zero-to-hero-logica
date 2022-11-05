@@ -1,0 +1,33 @@
+Algoritmo "ExercicioSomaMaiorEMenorIdades"
+//Exercicio Soma Maio e Menor Idades
+
+Var
+   i, idade, menor, maior: inteiro
+
+Inicio
+
+   repita
+
+      escreva("Digite sua IDADE: ")
+      leia(idade)
+
+      se(idade = -99)entao
+         escreval("IDADE INVALIDA: ",idade)
+         interrompa
+      fimse
+      se(idade <18)então
+         menor<- menor+1
+      senao
+         se(idade >60)entao
+            maior<- maior+1
+         fimse
+      fimse
+   ate i=-99
+
+   escreval("MENOR de 18 anos: ", menor)
+   escreval("MAIOR de 60 anos: ", maior)
+
+
+
+
+Fimalgoritmo

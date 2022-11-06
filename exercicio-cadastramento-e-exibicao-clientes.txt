@@ -1,0 +1,33 @@
+algoritmo "ExercicioCadastroClientes"
+//Exercicio Cadastramento e Exibição de Clientes
+
+var
+   nome, cpf, rg, endereco, telefone: vetor[1..5] de caractere
+   i: inteiro
+inicio
+   para i<-1 ate 5 faca
+      escreva("Digite o NOME do cliente: ", i, "º CLIENTE: ")
+      leia(nome[i])
+      escreva("Digite o CPF do cliente: ", i, "º CLIENTE: ")
+      leia(cpf[i])
+      escreva("Digite o RG do cliente: ", i, "º CLIENTE: ")
+      leia(rg[i])
+      escreva("Digite o ENDEREÇO do cliente: ", i, "º CLIENTE: ")
+      leia(endereco[i])
+      escreva("Digite o TELEFONE do cliente: ", i, "º CLIENTE: ")
+      leia(telefone[i])
+      escreval("")
+
+   fimpara
+   para i<-1 ate 5 faca
+
+      escreval("---------------------------------------------")
+      escreval("NOME do cliente ", i ,"º: ", nome[i])
+      escreval("CPF do cliente ", i ,"º: ", cpf[i])
+      escreval("RG do cliente ", i ,"º: " , rg[i])
+      escreval("ENDEREÇO do cliente ", i ,"º: " , endereco[i])
+      escreval("TELEFONE do cliente ", i ,"º: " , telefone[i])
+      escreval("---------------------------------------------")
+
+   fimpara
+fimalgoritmo
